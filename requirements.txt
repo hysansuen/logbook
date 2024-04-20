@@ -1,0 +1,2 @@
+pyproj~=3.6.1
+suntimes~=1.1.2
