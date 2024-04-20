@@ -1,6 +1,4 @@
-# ========README=========
-import datetime
-
+# =================README=====================
 # Start from here
 # 1. Locate CX logbook directory and change the csv reader path below.
 # e.g. if logbook is at root directory, enter "./Merged1_LogBook_2017 Mar-2019 Feb]"
@@ -16,12 +14,15 @@ name = "herman"
 # 3. If P2X not needed, set p2x to False (automatically revert to P2)
 p2x = True
 # 4. (optional) go to daynight.py and adjust parameters if needed.
+# =============================================
 
 
 
+import datetime
 from daynight import caldaynight
 import csv
 from tail_to_type import b773
+
 log = []
 # log = [{departure_date:2022/12/12, off_block_UTC: 12:22....}, {},....]
 

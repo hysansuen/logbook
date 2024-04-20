@@ -1,4 +1,4 @@
-#  ========README========
+#  ================README=================
 # Change following parameters as desired.
 
 # no. of steps on the great circle route, increased steps will increase runtime and accuracy
@@ -12,7 +12,9 @@ three_man_crew_bias = 1.54
 # adjust hours to be deducted from block hours for in-seat time,
 # if set to 0, taxi time will still be deducted
 block_minus_hour = 1
-# =======================
+# ========================================
+
+
 
 import csv
 import math
