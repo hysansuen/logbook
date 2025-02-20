@@ -2,14 +2,14 @@
 # Start from here
 # 1. Locate CX logbook directory and change the csv reader path below.
 # e.g. if logbook is at root directory, enter "./Merged1_LogBook_2017 Mar-2019 Feb]"
-logbook_paths = ["./herman/Merged1_LogBook_2017 Mar-2019 Feb.txt",
-                 "./herman/Merged1_LogBook_2019 Feb-2021 Jan.txt",
-                 "./herman/Merged1_LogBook_2022 Nov-2024 Apr.txt",
-                 "./herman/Merged1_LogBook_2024 Mar-2024 Apr.txt"]
+logbook_paths = ["./hysan/Merged1_LogBook_2024 Jun-2025 Feb.txt"
+#                 "./hysan/Merged1_LogBook_2019 Feb-2021 Jan.txt",
+ #                "./hysan/Merged1_LogBook_2022 Nov-2024 Apr.txt",
+  #               "./hysan/Merged1_LogBook_2024 Mar-2024 Apr.txt"]
 
 
 # 2. Whose logbook is this?
-name = "herman"
+name = "hysan"
 
 # 3. If P2X not needed, set p2x to False (automatically revert to P2)
 p2x = True
